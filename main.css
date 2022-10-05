@@ -3,7 +3,7 @@
 
 /* get color pallet from coolors using image picker */
 
-body {
+* {
   margin: 0;
   text-align: center;
 }
@@ -46,4 +46,16 @@ h1 {
 h3 {
   font-family: "Orbitron", sans-serif;
   color: #89bbfe;
+}
+
+.footer {
+  font-size: 20px;
+  margin: 1% 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 30px;
+    margin: 10% 0 10%;
+  }
 }
